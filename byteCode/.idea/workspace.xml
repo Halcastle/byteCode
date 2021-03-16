@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79638431-d8ea-4576-a4e7-33bcba1eac9e" name="Default Changelist" comment="" />
+    <list default="true" id="79638431-d8ea-4576-a4e7-33bcba1eac9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/byteCode/ByteCodeAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/byteCode/ByteCodeAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteCodeAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteCodeAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteCodeAnalysis2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteCodeAnalysis2.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="byteCode" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,10 +23,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1oE6d0qD5lMa51cBbplakgGwqbm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -32,9 +60,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.ByteCodeAnalysis">
     <configuration name="ByteCodeAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ByteCodeAnalysis" />
+      <module name="byteCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByteCodeAnalysis2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ByteCodeAnalysis2" />
       <module name="byteCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -49,8 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ByteCodeAnalysis" />
+        <item itemvalue="Application.ByteCodeAnalysis2" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -67,11 +103,35 @@
       <workItem from="1612839486894" duration="583000" />
       <workItem from="1612926797982" duration="9241000" />
       <workItem from="1613009248739" duration="1904000" />
-      <workItem from="1614153596016" duration="4592000" />
+      <workItem from="1614153596016" duration="4975000" />
+      <workItem from="1614217317840" duration="9141000" />
+      <workItem from="1614302271598" duration="1969000" />
+      <workItem from="1614562426250" duration="1251000" />
+      <workItem from="1614649481105" duration="753000" />
+      <workItem from="1614653581365" duration="221000" />
+      <workItem from="1614653821353" duration="2939000" />
+      <workItem from="1614657507161" duration="4285000" />
+      <workItem from="1614739628512" duration="1881000" />
+      <workItem from="1614820759975" duration="311000" />
+      <workItem from="1614828458158" duration="2531000" />
+      <workItem from="1615883513132" duration="98000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

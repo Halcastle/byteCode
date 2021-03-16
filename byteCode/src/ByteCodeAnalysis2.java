@@ -1,4 +1,4 @@
-public class ByteCodeAnalysis {
+public class ByteCodeAnalysis2 {
 
     /*Java基本数据类型:
         六种数字类型（四个整数型，两个浮点型）
@@ -46,84 +46,21 @@ public class ByteCodeAnalysis {
             char数据类型可以存储任何字符
 
      */
-    static final byte b_a = 100;
-    static final byte b_b = -1;
-
-    static final short s_a = 10;
-    static final short s_b = -5;
-
-    static int i_a = 11;
-    static int i_b = -12;
-
-    static long l_a = 200;
-    static long l_b = -200;
-
-    static float f_a = -10.5f;
-    static float f_b = 10.1f;
-
-    static double d_a = 17.12;
-    static double d_b = -11.22;
-
-    static boolean is_a = false;
-    static boolean is_b = true;
-
-    static final char c_a = 'A';
-    static final char c_b = 'c';
 
 
     public static void main(String[] args){
         //byte四则运算
-        byte b_result_addition = b_a + b_b ;
+        final byte b_a = 2;
+        final byte b_b = -2;
+        byte b_result_addition = b_a + b_b+2 ;
         byte b_result_subtraction = b_a - b_b;
         byte b_result_multiplication = b_a * b_b;
         byte b_result_division = b_a / b_b;
 
-        //short四则运算
-        short s_result_addition = s_a + s_b;
-        short s_result_subtraction = s_a - s_b;
-        short s_result_multiplication = s_a * s_b;
-        short s_result_division = s_a / s_b;
-
-        //int四则运算
-        int i_result_addition = i_a + i_b;
-        int i_result_subtraction = i_a - i_b;
-        int i_result_multiplication = i_a * i_b;
-        int i_result_division = i_a / i_b;
-
-        //long四则运算
-        long l_result_addition= l_a + l_b;
-        long l_result_subtraction = l_a - l_b;
-        long l_result_multipication = l_a * l_b;
-        long l_result_division = l_a / l_b;
-
-        //float四则运算
-        float f_result_addition = f_a + f_b;
-        float f_result_subtraction = f_a - f_b;
-        float f_result_multipication = f_a * f_b;
-        float f_result_division = f_a / f_b;
-
-        //double四则运算
-        double d_result_addition = d_a + d_b;
-        double d_result_subtraction = d_a - d_b;
-        double d_result_multipication = d_a * d_b;
-        double d_result_division = d_a / d_b;
-
-        //char四则运算
-        char c_result_addition = c_a + c_b;
-        char c_resullt_subtraction = c_b - c_a;
-        char c_result_multipication = c_a * c_b;
-        char c_result_division = c_a / c_b;
-
-        //if运算
-        if(i_a>i_b){
-            is_a = true;
-        }
-
-        //for运算
-        for(int i = 0;i<10;i++){
-            i_a += i_b;
-        }
-
+        System.out.println(b_result_addition);
+        System.out.println(b_result_subtraction);
+        System.out.println(b_result_multiplication);
+        System.out.println(b_result_division);
 
     }
 }
